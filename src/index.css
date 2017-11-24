@@ -1,0 +1,25 @@
+html {
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font: 300 14px "Open Sans", sans-serif;
+    background: transparent;
+    padding-bottom: 50px;
+}
+
+.block-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.row.is-spaced {
+    margin-bottom: 10px;
+}

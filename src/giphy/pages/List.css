@@ -1,0 +1,15 @@
+.gifs-grid {
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0 20px;
+}
+
+/* Prevent last row stretching */
+.gifs-grid::after{
+    content: '';
+    flex-grow: 999999999;
+}
