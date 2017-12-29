@@ -5,7 +5,7 @@ import axios from 'axios'
 import validateObject from '../utils/validate-object'
 
 // String key that carries API call info interpreted by this Redux middleware.
-export const RSAA = '@@redux-api-middleware/RSAA'
+export const RSAA = Symbol('RSAA')
 
 function isValidApiCallAction(action) {
     const requiredKeys = {
